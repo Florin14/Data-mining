@@ -84,6 +84,7 @@ total_correct = 0
 def search(query_text, category=None):
     with index.searcher() as searcher:
         query = QueryParser("content", index.schema).parse(query_text)
+
         results = searcher.search(query, limit=1)
 
         if results:
