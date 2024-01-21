@@ -1,1 +1,1 @@
-To start the project yu should run 'pip install woosh' in terminal and then run the main project file.
+To start the project you should run 'pip install whoosh' in terminal and then run the main project file.
